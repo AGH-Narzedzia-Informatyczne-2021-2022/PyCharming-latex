@@ -1,0 +1,62 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[polish,english]{babel}
+\usepackage{polski}
+\usepackage{minted}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{graphicx}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue
+    }
+\newcommand*{\ClipSep}{0.6cm}%
+\geometry{margin=1.5in}
+
+\addto\captionsenglish{\renewcommand{\figurename}{Figure}}
+
+\title{\textbf{The Charming Guy}}
+\author{Antoni Zięciak \footnote{AGH University of Science and Technology, Computer Science and Artificial Intelligence} \and Patryk Lesiak \footnote{AGH University of Science and Technology, Computer Science and Artificial Intelligence} \and Kacper Stankiewicz \footnote{AGH University of Science and Technology, Computer Science and Artificial Intelligence}  \and Michał Szczygieł \footnote{AGH University of Science and Technology, Computer Science and Artificial Intelligence}  \and Adrian Krupa \footnote{AGH University of Science and Technology, Computer Science and Artificial Intelligence} \and David Hunanyan \footnote{AGH University of Science and Technology, Computer Science and Artificial Intelligence}}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{quote}
+\centering
+    "What one programmer can do in one month, two programmers can do in two months. And there is six of us."
+\end{quote}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Pictures/bot_icon.png}
+\end{figure}
+
+\newpage
+
+% \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=0.5\textwidth]{Pictures/meme.jpg} % Jak sprawić, żeby obrazek był większy?
+%     \caption{Meme hehe funny}
+%     \label{fig:meme}
+% \end{figure}
+
+\input{Chapters/introduction}
+
+\section{Creating software}
+\label{sec:creating}
+
+\input{Chapters/chapter1_patryklesiak}
+\input{Chapters/chapter2_antonizieciak}
+\input{Chapters/chapter3_michalszczygiel}
+\input{Chapters/chapter4_adriankrupa}
+\input{Chapters/chapter5_davithunanyan}
+\input{Chapters/chapter6_stankiewiczkacper}
+
+\end{document}
